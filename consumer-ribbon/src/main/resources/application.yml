@@ -1,0 +1,12 @@
+#注册中心
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+#消费者端口
+server:
+  port: 8764
+
+spring:
+  application:
+    name: service-ribbon
